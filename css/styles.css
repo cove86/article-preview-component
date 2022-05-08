@@ -19,7 +19,7 @@ html {
   grid-template-columns: 1fr 2fr;
   /* align-items: center; */
 
-  max-width: 90rem;
+  width: 75rem;
 
   font-family: 'Manrope', sans-serif;
 }
@@ -39,16 +39,35 @@ html {
 .heading {
   font-size: 1.8rem;
   font-weight: 700;
+
+  margin-bottom: 2rem;
 }
 
 .text {
   font-size: 1.3rem;
+
+  margin-bottom: 2rem;
 }
 
 .author-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.author-name {
+  font-size: 1.3rem;
+}
+
+.avatar {
+  width: 15%;
+  border-radius: 50%;
 }
 
 .share-icon {
