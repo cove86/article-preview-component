@@ -9,11 +9,6 @@ html {
   background-color: hsl(210, 46%, 95%);
 }
 
-.container {
-  width: 144rem;
-  margin: 0 auto;
-}
-
 .card {
   margin: 10rem auto;
   display: grid;
@@ -132,6 +127,13 @@ html {
   font-size: 1.2rem;
 }
 
+.share-mobile {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30rem;
+  background-color: hsl(217, 19%, 35%);
+}
+
 footer {
   margin-top: 5rem;
 }
@@ -142,4 +144,22 @@ footer {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 78rem) {
+  html {
+    font-size: 50%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+  }
+
+  .card-image-container {
+    height: 40rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0rem;
+  }
 }
