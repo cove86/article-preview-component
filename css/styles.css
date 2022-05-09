@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  background-color: hsl(210, 46%, 95%);
 }
 
 .container {
@@ -14,13 +15,14 @@ html {
 }
 
 .card {
-  margin: 0 auto;
+  margin: 10rem auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  /* align-items: center; */
+  grid-template-columns: 40% 60%;
+  border-radius: 1rem;
 
-  width: 75rem;
-
+  overflow: hidden;
+  width: 68rem;
+  background-color: #fff;
   font-family: 'Manrope', sans-serif;
 }
 
@@ -33,19 +35,19 @@ html {
   display: flex;
   flex-direction: column;
 
-  padding: 4rem;
+  padding: 2rem 4rem;
 }
 
 .heading {
   font-size: 1.8rem;
   font-weight: 700;
-
-  margin-bottom: 2rem;
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 1rem;
 }
 
 .text {
-  font-size: 1.3rem;
-
+  font-size: 1.2rem;
+  color: hsl(214, 17%, 51%);
   margin-bottom: 2rem;
 }
 
@@ -62,7 +64,13 @@ html {
 }
 
 .author-name {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  color: hsl(217, 19%, 35%);
+}
+
+.date {
+  color: hsl(214, 17%, 51%);
+  margin-top: 0.25rem;
 }
 
 .avatar {
@@ -70,9 +78,21 @@ html {
   border-radius: 50%;
 }
 
+.share-btn {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
 .share-icon {
   width: 15px;
   height: 13px;
+}
+
+footer {
+  margin-top: 5rem;
 }
 
 .attribution {
