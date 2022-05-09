@@ -20,7 +20,6 @@ html {
   grid-template-columns: 40% 60%;
   border-radius: 1rem;
 
-  overflow: hidden;
   width: 68rem;
   background-color: #fff;
   font-family: 'Manrope', sans-serif;
@@ -29,6 +28,9 @@ html {
 .card-image-container {
   background-image: url('../images/drawers.jpg');
   background-size: cover;
+  overflow: hidden;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .card-text {
@@ -55,6 +57,8 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: relative;
 }
 
 .author {
@@ -89,12 +93,10 @@ html {
 .share-icon {
   width: 15px;
   height: 13px;
-
-  position: relative;
 }
 
 .share {
-  display: flex;
+  display: none;
   justify-content: space-evenly;
   align-content: center;
   width: 20rem;
@@ -103,9 +105,12 @@ html {
   padding: 1.25rem;
   border-radius: 0.5rem;
 
-  top: 10rem;
+  top: -6rem;
+  left: 21rem;
 
   position: absolute;
+
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.082);
 }
 
 .share::after {
