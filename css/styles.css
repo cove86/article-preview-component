@@ -135,6 +135,11 @@ html {
   border-bottom-right-radius: 1rem;
 }
 
+.share-btn-mobile svg {
+  background-color: hsl(214, 17%, 51%);
+  fill: #fff;
+}
+
 footer {
   margin-top: 5rem;
 }
