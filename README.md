@@ -27,15 +27,15 @@ Users should be able to:
 ### Screenshot
 
 ## Dektop
-<img src="/images/desktop.JPG" width="800" height="600">
+<img src="/images/desktop.JPG" width="1000" height="500">
 
 ## Mobile
 
-<img src="/images/mobile.JPG" width="600" height="800">
+<img src="/images/mobile.JPG" width="400" height="600">
 
 ## Mobile-active
 
-<img src="/images/mobile-active.JPG" width="600" height="800">
+<img src="/images/mobile-active.JPG" width="400" height="600">
 
 
 ### Links
